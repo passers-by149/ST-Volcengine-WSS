@@ -1,0 +1,134 @@
+/* 火山引擎 TTS 插件设置面板样式 */
+.volcengine-tts-panel {
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.volcengine-tts-panel h3 {
+    margin: 0 0 4px 0;
+    font-size: 1.1em;
+    color: var(--SmartThemeBodyColor);
+}
+
+.volc-tts-desc {
+    margin: 0 0 16px 0;
+    font-size: 0.85em;
+    color: var(--SmartThemeEmColor);
+    opacity: 0.7;
+}
+
+.volc-tts-section {
+    margin-bottom: 16px;
+    padding: 12px;
+    background: var(--SmartThemeBlurTintColor);
+    border-radius: 8px;
+    border: 1px solid var(--SmartThemeBorderColor);
+}
+
+.volc-tts-section h4 {
+    margin: 0 0 10px 0;
+    font-size: 0.95em;
+    color: var(--SmartThemeBodyColor);
+    border-bottom: 1px solid var(--SmartThemeBorderColor);
+    padding-bottom: 6px;
+}
+
+.volc-tts-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 10px;
+}
+
+.volc-tts-row:last-child {
+    margin-bottom: 0;
+}
+
+.volc-tts-row > label:first-child {
+    min-width: 130px;
+    font-size: 0.85em;
+    color: var(--SmartThemeBodyColor);
+    text-align: right;
+}
+
+.volc-tts-row input[type="text"],
+.volc-tts-row input[type="password"],
+.volc-tts-row input[type="number"] {
+    flex: 1;
+    padding: 6px 10px;
+    border: 1px solid var(--SmartThemeBorderColor);
+    border-radius: 4px;
+    background: var(--SmartThemeInputColor);
+    color: var(--SmartThemeBodyColor);
+    font-size: 0.85em;
+    font-family: inherit;
+}
+
+.volc-tts-row input[type="text"]:focus,
+.volc-tts-row input[type="password"]:focus,
+.volc-tts-row input[type="number"]:focus {
+    outline: none;
+    border-color: var(--SmartThemeActiveColor);
+}
+
+.volc-tts-row input[type="number"] {
+    max-width: 100px;
+}
+
+.volc-tts-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    min-width: auto !important;
+    text-align: left !important;
+}
+
+.volc-tts-checkbox input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: var(--SmartThemeActiveColor);
+}
+
+.volc-tts-checkbox span {
+    font-size: 0.9em;
+    color: var(--SmartThemeBodyColor);
+}
+
+.volc-tts-btn {
+    padding: 8px 16px;
+    border: 1px solid var(--SmartThemeBorderColor);
+    border-radius: 4px;
+    background: var(--SmartThemeButtonColor);
+    color: var(--SmartThemeBodyColor);
+    cursor: pointer;
+    font-size: 0.85em;
+    font-family: inherit;
+    transition: background 0.2s;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.volc-tts-btn:hover {
+    background: var(--SmartThemeActiveColor);
+    color: #fff;
+}
+
+.volc-tts-btn-danger {
+    border-color: #d32f2f;
+    color: #d32f2f;
+}
+
+.volc-tts-btn-danger:hover {
+    background: #d32f2f;
+    color: #fff;
+}
+
+.volc-tts-status {
+    display: inline-block;
+    font-size: 0.82em;
+    color: var(--SmartThemeEmColor);
+    margin-left: 8px;
+    font-style: italic;
+}
