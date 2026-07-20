@@ -340,7 +340,6 @@ function parseServerFrame(buffer) {
     let event = null;
     let sessionIdStr = null;
     let errorCode = null;
-
     // 错误消息（msg_type = 0xF）
     if (msgType === 0xF) {
         if (data.length >= pos + 4) {
@@ -646,8 +645,7 @@ async function speakText(text) {
         showToast('火山引擎 TTS 失败: ' + err.message);
         await disconnect();
     }
-}
-
+                                 }
 async function speakSentences(sentences) {
     for (const sentence of sentences) {
         if (!sentence.trim()) continue;
