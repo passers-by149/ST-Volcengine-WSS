@@ -1,42 +1,39 @@
 /* 火山引擎 TTS 插件设置面板样式 */
 .volcengine-tts-panel {
-    padding: 16px;
-    margin-bottom: 20px;
+    /* inline-drawer 自带折叠功能，无需额外 padding */
 }
 
-.volcengine-tts-panel h3 {
-    margin: 0 0 4px 0;
-    font-size: 1.1em;
-    color: var(--SmartThemeBodyColor);
+.volcengine-tts-panel .inline-drawer-content {
+    padding: 12px 16px 16px 16px;
 }
 
 .volc-tts-desc {
-    margin: 0 0 16px 0;
+    margin: 0 0 12px 0;
     font-size: 0.85em;
     color: var(--SmartThemeEmColor);
     opacity: 0.7;
 }
 
 .volc-tts-section {
-    margin-bottom: 16px;
-    padding: 12px;
+    margin-bottom: 14px;
+    padding: 10px 12px;
     background: var(--SmartThemeBlurTintColor);
     border-radius: 8px;
     border: 1px solid var(--SmartThemeBorderColor);
 }
 
 .volc-tts-section h4 {
-    margin: 0 0 10px 0;
-    font-size: 0.95em;
+    margin: 0 0 8px 0;
+    font-size: 0.9em;
     color: var(--SmartThemeBodyColor);
     border-bottom: 1px solid var(--SmartThemeBorderColor);
-    padding-bottom: 6px;
+    padding-bottom: 5px;
 }
 
 .volc-tts-row {
     display: flex;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
     gap: 10px;
 }
 
